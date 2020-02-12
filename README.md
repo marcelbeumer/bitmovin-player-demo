@@ -8,6 +8,8 @@ This showcases are build around the Bitmovin Adaptive Streaming Player, demonstr
     * [preferredStartupQuality](adaptation/preferredStartupQuality.js): Set a minimum startup quality for a specified amount of time before using the built-in adaptation logic again.
     * [regionOfInterest](adaptation/regionOfInterest.html): Multiple players with low quality and the active player (where the mouse is over) switches to better quality.
     * [rateBasedSwitching](adaptation/rateBasedSwitching.js): Measuring the speed of downloads and select the quality accordingly.
+* [**castReceiver**](castReceiver/)
+    * [receiverApp](castReceiver/receiverApp.html): Example of a custom receiver app.
 * [**errorHandling**](errorhandling/)
     * [handleDownloadErrors](errorhandling/handleDownloadErrors.html): Custom retry logic for the case that files cannot be downloaded.
     * [showPosterOnError](errorhandling/showPosterOnError.html): Display a still image whenever an error occurs.
@@ -21,10 +23,15 @@ This showcases are build around the Bitmovin Adaptive Streaming Player, demonstr
 * [**keyboard**](keyboard/)
    * [keyboardSupport](keyboard/keyboardSupport.html): Keyboard shortcuts for the Bitmovin Player.
    * [keyboardCustom](keyboard/keyboardCustom.html): Custom keyboard shortcuts for the Bitmovin Player.
+* [**mobile**](mobile/)
+   * [android MediaSessionAPI](mobile/androidMediaSessionAPI.html): Control playback via Android Notifications
 * [**playerUi**](playerUi/)
    * [customErrorMessage](playerUi/customErrorMessage.html): Display your own error messages within the Bitmovin HTML5 Player
    * [timelineMarkers](playerUi/timelineMarkers.html): Identify the differents parts of a stream by setting some markers over the timeline
+   * [separatedSubtitleAudioSettings](playerUi/separatedAudioSubtitleSettings.html): Extracted audio tracks and subtitle settings from the settings panel direct into the controlBar
    * [labeling](playerUi/labeling.html): Change Languages, Quality and Subtitles labels
+* [**react**](react/)
+    * [reactJs](react/reactjs.html): Using the Bitmovin Player within a react component
 * [**playlist**](playlist/)
     * [simplePlaylist](playlist/simplePlaylist.html): Build a playlist with the Bitmovin HTML5 Player API.
 * [**requirejs-demo**](requirejs-demo/)
@@ -35,23 +42,25 @@ This showcases are build around the Bitmovin Adaptive Streaming Player, demonstr
     * [dfp](ssai/dfp/): Use Google DoubleClick for Server-side ad insertion (SSAI)
 * [**subtitles**](subtitles/)
     * [customSubtitleDisplay](subtitles/customSubtitleDisplay.js): Render subtitles using the ON_CUE_ENTER and ON_CUE_EXIT player events.
+* [**vue**](vue)
+    * [vueJs](vue/vuejs.html): Using the Bitmovin Player within a vue.js component
 * [**webpack-demo**](webpack-demo/)
     * [buildPlayerWithWebpack](webpack-demo/buildPlayerWithWebpack.html): Build the Bitmovin HTML5 Player using webpack.
 
-## Howto Install
+## How to Install
 
-1. Sign up for free at [https://dashboard.bitmovin.com/signup](https://dashboard.bitmovin.com/signup)
-2. Get your personal key from the [player licenses page](https://dashboard.bitmovin.com/player/licenses/)
+1. [Sign up](https://bitmovin.com/dashboard/signup) for free
+2. Get your personal key from the [player licenses page](https://bitmovin.com/dashboard/player/licenses/)
 3. Checkout the sample provided in this repository
 4. Add the player key to the player configuration in the example you want to use
 5. Enjoy best adaptive streaming performance!
 
 ## Generate Content The Easy Way
 
-To generate MPEG-DASH & HLS content on your own, please have a look at the encoding section at  [https://developer.bitmovin.com/](https://developer.bitmovin.com/) and give it a free try!
+To generate MPEG-DASH & HLS content on your own, please have a look at the [encoding section](https://bitmovin.com/docs/encoding) and give it a free try!
 
 ## Additional Demos and Documentation
 
-Additional demos can be found in our demo area at [https://bitmovin.com/demo/](https://bitmovin.com/demo/). For more information on our rich API and player configuration, we refer to [https://developer.bitmovin.com/hc/en-us/categories/115000139893-Player](https://developer.bitmovin.com/hc/en-us/categories/115000139893-Player).
+Additional demos can be found in our [demo area](https://bitmovin.com/demos/). For more information on our rich API and player configuration, we refer to our [documentation](https://bitmovin.com/docs/player).
 
-www.bitmovin.com<br>
+[www.bitmovin.com](https://www.bitmovin.com)<br>
